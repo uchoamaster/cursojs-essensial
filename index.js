@@ -6,11 +6,15 @@
 
 //formas de pegar elemento
 //pegar elemento pela tag
-// var txtTagName = document.getElementsByTagName("h1");
-// console.log(txtTagName[0].innerHTML);
+var txtTagName = document.getElementsByTagName("h1");
+console.log(txtTagName[2].innerHTML);
+
+txtTagName[2].setAttribute("class", "txtBlue");
+
+
 
 //quero pegar todos os elementos que estão utilizando uma classe
 //pegar elemento pelo nome da classe
 //document.getElementsByClassName();
-var txtClassName = document.getElementsByClassName("txtName");
-console.log(txtClassName);
+// var txtClassName = document.getElementsByClassName("txtName");
+// console.log(txtClassName);

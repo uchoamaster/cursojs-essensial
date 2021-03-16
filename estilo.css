@@ -1,3 +1,8 @@
 .txtName {
     color: red;
 }
+
+.txtBlue {
+    color: blue;
+    font-size: 50px;
+}
