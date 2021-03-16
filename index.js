@@ -21,24 +21,40 @@
 // console.log(txtClassName);
 //as funções podem ter os nomes que quiserem, nessa estamos pegando
 // os elementos pelo ID
-function getById(id){
-var txt = document.getElementById(id);
-return txt;
-}
+// function getById(id){
+// var txt = document.getElementById(id);
+// return txt;
+// }
 
-function getByTag(tag){
-var txtTagName = document.getElementsByTagName(tag);
-return txtTagName;    
-}
+// function getByTag(tag){
+// var txtTagName = document.getElementsByTagName(tag);
+// return txtTagName;    
+// }
 
-function getByClass(className){
-var txtClassName = document.getElementsByClassName(className);
-return txtClassName;
-}
+// function getByClass(className){
+// var txtClassName = document.getElementsByClassName(className);
+// return txtClassName;
+// }
 
 //como chamar essas funções de maneira correta e de maneira errada
 
-console.log(getById("primeiroHello"));
-console.log(getByTag("h1")); 
-console.log(getByClass("txtName")); 
+// console.log(getById("primeiroHello"));
+// console.log(getByTag("h1")); 
+// console.log(getByClass("txtName")); 
 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/**
+ * aula 06 - eventos em javascript
+ * //Onload -> quando a página for carregada
+ * //Onchange -> um elemento HTML foi alterado
+ * //Onclick -> o usuário clica em um elemento HTML
+ * //OnMouseOver -> O usuário move o mouse sobre um elemento HTML
+ * //OnMouseOut -> O usuário move o mouse para longe de um elemento HTML
+ * //OnKeyDown -> O usuário aperta uma tecla do teclado
+ */
+
+function acionaOnload(){
+    console.log("A página foi carregada!");
+}
