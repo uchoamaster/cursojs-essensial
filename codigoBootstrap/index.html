@@ -6,13 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
 
 </head>
 <body>
-    
+    <div class="container mt-5">
+<h1>Pequeno Exemplo de Login</h1>
+<form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">E-mail</label>
+      <input type="email" class="form-control" id="email" placeholder="Entre com seu e-mail" onblur="validaEmail('email')">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="senha" placeholder="Entre com sua senha">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="verSenha">
+      <label class="form-check-label" for="exampleCheck1">Ver Senha</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>    
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+<script src="validaForm.js"></script>   
 </body>
 </html>
