@@ -58,3 +58,19 @@
 function acionaOnload(){
     console.log("A página foi carregada!");
 }
+
+function acionaOnchange(){
+    console.log("O conteúdo foi alterado");
+}
+
+function acionaOnClick(){
+    console.log("O botão foi clicado!!");
+}
+
+function mudaCorBox(id, cor){
+var box = document.getElementById(id).style.backgroundColor = cor;
+}
+
+function mudaCorBoxOut(id, cor) {
+    var box = document.getElementById(id).style.backgroundColor = cor;
+}
